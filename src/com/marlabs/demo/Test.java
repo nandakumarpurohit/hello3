@@ -11,6 +11,6 @@ import java.util.Date;
  */
 public class Test {
 	public String getData() {
-		return new Date().toString();
+		return "Hello: " + new Date().toString();
 	}
 }
