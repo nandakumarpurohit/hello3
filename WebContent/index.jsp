@@ -6,13 +6,22 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+<style>
+	h3 {
+		font-size: 12px;
+		color: blue;
+	}
+</style>
+
 </head>
 <body>
 <jsp:useBean id="obj" class="com.marlabs.demo.Test" />
-<h2>
+<h3>
 <%
+	out.println("Hello!");
 	out.println(obj.getData());
 %>
-</h2>
+</h3>
 </body>
 </html>
