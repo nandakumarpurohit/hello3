@@ -8,20 +8,21 @@
 <title>Insert title here</title>
 
 <style>
-	h3 {
-		font-size: 12px;
-		color: blue;
+	h4 {
+		font-size: 16px;
+		color: red;
+		border: dashed 2px blue;
 	}
 </style>
 
 </head>
 <body>
 <jsp:useBean id="obj" class="com.marlabs.demo.Test" />
-<h3>
+<h4>
 <%
 	out.println("Hello!");
 	out.println(obj.getData());
 %>
-</h3>
+</h4>
 </body>
 </html>
