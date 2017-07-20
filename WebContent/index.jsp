@@ -10,8 +10,8 @@
 <style>
 	h4 {
 		font-size: 16px;
-		color: blue;
-		border: dashed 1px green;
+		color: green;
+		border: dashed 2px red;
 	}
 </style>
 
