@@ -20,7 +20,7 @@
 <jsp:useBean id="obj" class="com.marlabs.demo.Test" />
 <h4>
 <%
-	out.println("Hello!");
+	out.println("Hello there!");
 	out.println(obj.getData());
 %>
 </h4>
