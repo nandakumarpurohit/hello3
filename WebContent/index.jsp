@@ -11,7 +11,7 @@
 	h4 {
 		font-size: 24px;
 		color: blue;
-		border: dashed 2px red;
+		border: dashed 2px blue;
 	}
 </style>
 
